@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "677938596070",
+    "firebase_url": "https://spise-app-6dedc.firebaseio.com",
+    "project_id": "spise-app-6dedc",
+    "storage_bucket": "spise-app-6dedc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677938596070:android:b2be45e5367671f5e85327",
+        "android_client_info": {
+          "package_name": "com.example.spiseapp3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677938596070-f54pfj5pm3dq96jcjc9o1t6233pqjpec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spiseapp3",
+            "certificate_hash": "485d2f63af61d9fb897397f5bb198517bc23c270"
+          }
+        },
+        {
+          "client_id": "677938596070-016j144i0019oor79kcmadvccjm7qaus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC75Sib25EJSwh1ODsY8GRGJSgmz_Ad7fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677938596070-016j144i0019oor79kcmadvccjm7qaus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

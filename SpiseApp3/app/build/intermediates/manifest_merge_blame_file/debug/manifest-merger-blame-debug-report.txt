@@ -1,0 +1,367 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.spiseapp3"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:9:5-67
+15-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:10:5-79
+16-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+17-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:11:5-98
+17-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:11:22-95
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:9:5-67
+18-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:9:22-64
+19
+20    <!-- Include required permissions for Google Maps API to run. -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\54ab3033ac1c0ed86f67ec5de980edd5\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\54ab3033ac1c0ed86f67ec5de980edd5\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\54ab3033ac1c0ed86f67ec5de980edd5\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\54ab3033ac1c0ed86f67ec5de980edd5\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\54ab3033ac1c0ed86f67ec5de980edd5\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+26
+27    <application
+27-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:14:5-138:19
+28        android:allowBackup="true"
+28-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:15:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@drawable/applogo"
+31-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:16:9-41
+32        android:label="@string/app_name"
+32-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:17:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:18:9-54
+34        android:supportsRtl="true"
+34-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:19:9-35
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme" >
+36-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:20:9-40
+37        <activity android:name="com.example.spiseapp3.retro" />
+37-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:21:9-52
+37-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:21:19-40
+38        <activity android:name="com.example.spiseapp3.ui.CustomerOrders.Cordernew" />
+38-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:22:9-65
+38-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:22:19-62
+39        <activity android:name="com.example.spiseapp3.scrolling" />
+39-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:23:9-47
+39-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:23:19-44
+40        <activity
+40-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:24:9-26:52
+41            android:name="com.example.spiseapp3.ui.RestaurantFiles.RestaurantHistory.HistoryDetails"
+41-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:25:13-80
+42            android:alwaysRetainTaskState="true" />
+42-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:26:13-49
+43        <activity
+43-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:27:9-29:52
+44            android:name="com.example.spiseapp3.Cart"
+44-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:28:13-33
+45            android:alwaysRetainTaskState="true" />
+45-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:29:13-49
+46        <activity android:name="com.example.spiseapp3.Cart_Itemrow" />
+46-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:30:9-50
+46-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:30:19-47
+47        <activity
+47-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:31:9-33:52
+48            android:name="com.example.spiseapp3.FoodItemDetail"
+48-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:32:13-43
+49            android:alwaysRetainTaskState="true" />
+49-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:33:13-49
+50        <activity
+50-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:34:9-36:52
+51            android:name="com.example.spiseapp3.FoodItemOptionsRow"
+51-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:35:13-47
+52            android:alwaysRetainTaskState="true" />
+52-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:36:13-49
+53        <activity
+53-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:37:9-39:52
+54            android:name="com.example.spiseapp3.menu"
+54-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:38:13-33
+55            android:alwaysRetainTaskState="true" />
+55-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:39:13-49
+56        <activity android:name="com.example.spiseapp3.menu_row" />
+56-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:40:9-46
+56-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:40:19-43
+57        <activity
+57-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:41:9-43:52
+58            android:name="com.example.spiseapp3.OnlinePayment"
+58-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:42:13-42
+59            android:alwaysRetainTaskState="true" />
+59-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:43:13-49
+60        <activity
+60-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:44:9-46:52
+61            android:name="com.example.spiseapp3.Paymentoptions"
+61-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:45:13-43
+62            android:alwaysRetainTaskState="true" />
+62-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:46:13-49
+63        <activity
+63-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:47:9-49:52
+64            android:name="com.example.spiseapp3.SearchFilter"
+64-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:48:13-41
+65            android:alwaysRetainTaskState="true" />
+65-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:49:13-49
+66        <activity android:name="com.example.spiseapp3.ViewRestaurantRow" />
+66-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:50:9-55
+66-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:50:19-52
+67        <activity
+67-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:51:9-53:52
+68            android:name="com.example.spiseapp3.SignUpClient"
+68-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:52:13-41
+69            android:alwaysRetainTaskState="true" />
+69-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:53:13-49
+70        <activity
+70-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:54:9-56:52
+71            android:name="com.example.spiseapp3.SignUpCustomer"
+71-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:55:13-43
+72            android:alwaysRetainTaskState="true" />
+72-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:56:13-49
+73        <activity
+73-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:57:9-65:20
+74            android:name="com.example.spiseapp3.MainActivity"
+74-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:58:13-41
+75            android:alwaysRetainTaskState="true" >
+75-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:59:13-49
+76            <intent-filter>
+76-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:60:13-64:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:61:17-69
+77-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:61:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:63:17-77
+79-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:63:27-74
+80            </intent-filter>
+81        </activity>
+82        <!--
+83             The API key for Google Maps-based APIs is defined as a string resource.
+84             (See the file "res/values/google_maps_api.xml").
+85             Note that the API key is linked to the encryption key used to sign the APK.
+86             You need a different API key for each encryption key, including the release key that is used to
+87             sign the APK for publishing.
+88             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+89        -->
+90        <meta-data
+90-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:74:9-76:55
+91            android:name="com.google.android.geo.API_KEY"
+91-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:75:13-58
+92            android:value="@string/google_maps_key" />
+92-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:76:13-52
+93        <meta-data
+93-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:77:9-79:69
+94            android:name="com.google.android.gms.version"
+94-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:78:13-58
+95            android:value="@integer/google_play_services_version" />
+95-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:79:13-66
+96
+97        <activity
+97-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:81:9-83:91
+98            android:name="com.example.spiseapp3.ui.RestaurantRequests.ExpandRequest"
+98-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:82:13-64
+99            android:parentActivityName="com.example.spiseapp3.ui.RestaurantRequests.RestaurantOrderRequests" />
+99-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:83:13-88
+100        <activity
+100-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:84:9-87:59
+101            android:name="com.example.spiseapp3.ui.CustomerLocationFiles.CustomerPickupLocation"
+101-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:85:13-76
+102            android:label="@string/title_activity_customer_pickup_location"
+102-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:86:13-76
+103            android:theme="@style/AppTheme.NoActionBar" />
+103-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:87:13-56
+104        <activity
+104-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:88:9-90:105
+105            android:name="com.example.spiseapp3.ui.RestaurantFiles.RestaurantProfileFiles.RestaurantProfileEdit"
+105-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:89:13-92
+106            android:parentActivityName="com.example.spiseapp3.ui.RestaurantFiles.RestaurantProfileFiles.RestaurantProfile" />
+106-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:90:13-102
+107        <activity
+107-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:91:9-94:91
+108            android:name="com.example.spiseapp3.ui.RestaurantFiles.RestaurantLogout"
+108-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:92:13-64
+109            android:label="Log out"
+109-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:93:13-36
+110            android:parentActivityName="com.example.spiseapp3.ui.RestaurantRequests.RestaurantOrderRequests" />
+110-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:94:13-88
+111        <activity
+111-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:95:9-98:91
+112            android:name="com.example.spiseapp3.ui.RestaurantFiles.RestaurantUpdateMenu"
+112-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:96:13-68
+113            android:label="@string/title_activity_restaurant_update_menu"
+113-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:97:13-74
+114            android:parentActivityName="com.example.spiseapp3.ui.RestaurantRequests.RestaurantOrderRequests" />
+114-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:98:13-88
+115        <activity
+115-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:99:9-102:91
+116            android:name="com.example.spiseapp3.ui.RestaurantFiles.RestaurantHistory.RestaurantOrderHistory"
+116-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:100:13-88
+117            android:label=""
+117-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:101:13-29
+118            android:parentActivityName="com.example.spiseapp3.ui.RestaurantRequests.RestaurantOrderRequests" />
+118-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:102:13-88
+119        <activity
+119-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:103:9-106:59
+120            android:name="com.example.spiseapp3.ui.RestaurantRequests.RestaurantOrderRequests"
+120-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:104:13-74
+121            android:label="@string/title_activity_restaurant_order_requests"
+121-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:105:13-77
+122            android:theme="@style/AppTheme.NoActionBar" />
+122-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:106:13-56
+123        <activity
+123-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:107:9-110:91
+124            android:name="com.example.spiseapp3.ui.RestaurantFiles.RestaurantProfileFiles.RestaurantProfile"
+124-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:108:13-88
+125            android:label=""
+125-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:109:13-29
+126            android:parentActivityName="com.example.spiseapp3.ui.RestaurantRequests.RestaurantOrderRequests" />
+126-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:110:13-88
+127        <activity
+127-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:111:9-113:72
+128            android:name="com.example.spiseapp3.ui.CustomerLocationFiles.CustomerLocation"
+128-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:112:13-70
+129            android:label="@string/title_activity_customer_location" />
+129-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:113:13-69
+130        <activity
+130-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:114:9-117:51
+131            android:name="com.example.spiseapp3.ui.CLogout"
+131-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:115:13-39
+132            android:label="@string/title_activity_clogout"
+132-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:116:13-59
+133            android:parentActivityName="com.example.spiseapp3.chome" />
+133-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:117:13-48
+134        <activity
+134-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:118:9-121:51
+135            android:name="com.example.spiseapp3.ui.CustomerProfile.CProfile"
+135-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:119:13-56
+136            android:label="@string/title_activity_cprofile"
+136-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:120:13-60
+137            android:parentActivityName="com.example.spiseapp3.chome" />
+137-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:121:13-48
+138        <activity
+138-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:122:9-125:73
+139            android:name="com.example.spiseapp3.ui.CustomerProfile.editCProfile"
+139-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:123:13-60
+140            android:label="@string/edit_profile"
+140-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:124:13-49
+141            android:parentActivityName="com.example.spiseapp3.ui.CustomerProfile.CProfile" />
+141-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:125:13-70
+142        <activity
+142-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:126:9-129:51
+143            android:name="com.example.spiseapp3.ui.CAddressesFolder.CAddresses"
+143-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:127:13-59
+144            android:label="@string/title_activity_cadresses"
+144-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:128:13-61
+145            android:parentActivityName="com.example.spiseapp3.chome" />
+145-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:129:13-48
+146        <activity
+146-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:130:9-133:51
+147            android:name="com.example.spiseapp3.ui.CustomerOrders.COrders"
+147-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:131:13-54
+148            android:label="@string/title_activity_corders"
+148-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:132:13-59
+149            android:parentActivityName="com.example.spiseapp3.chome" />
+149-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:133:13-48
+150        <activity
+150-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:134:9-137:59
+151            android:name="com.example.spiseapp3.chome"
+151-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:135:13-34
+152            android:label="@string/app_name"
+152-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:136:13-45
+153            android:theme="@style/AppTheme.NoActionBar" />
+153-->D:\SmdLocalProjectsPhase2\f13 abiamobile\f13\SpiseApp3\app\src\main\AndroidManifest.xml:137:13-56
+154        <!-- Needs to be explicitly declared on P+ -->
+155        <uses-library
+155-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\54ab3033ac1c0ed86f67ec5de980edd5\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+156            android:name="org.apache.http.legacy"
+156-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\54ab3033ac1c0ed86f67ec5de980edd5\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+157            android:required="false" />
+157-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\54ab3033ac1c0ed86f67ec5de980edd5\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+158
+159        <activity
+159-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35cd8b2d8d49653cdb2701db17c1ebbb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+160            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+160-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35cd8b2d8d49653cdb2701db17c1ebbb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+161            android:excludeFromRecents="true"
+161-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35cd8b2d8d49653cdb2701db17c1ebbb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+162            android:exported="true"
+162-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35cd8b2d8d49653cdb2701db17c1ebbb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+163            android:launchMode="singleTask"
+163-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35cd8b2d8d49653cdb2701db17c1ebbb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+164            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+164-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35cd8b2d8d49653cdb2701db17c1ebbb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+165-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35cd8b2d8d49653cdb2701db17c1ebbb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+166
+167        <service
+167-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35cd8b2d8d49653cdb2701db17c1ebbb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+168            android:name="com.google.firebase.components.ComponentDiscoveryService"
+168-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35cd8b2d8d49653cdb2701db17c1ebbb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+169            android:exported="false" >
+169-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35cd8b2d8d49653cdb2701db17c1ebbb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+170            <meta-data
+170-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35cd8b2d8d49653cdb2701db17c1ebbb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+171                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+171-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35cd8b2d8d49653cdb2701db17c1ebbb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35cd8b2d8d49653cdb2701db17c1ebbb\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+173        </service>
+174
+175        <provider
+175-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d9391e3c73a6429a23baa72debe5b1bb\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+176            android:name="com.squareup.picasso.PicassoProvider"
+176-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d9391e3c73a6429a23baa72debe5b1bb\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+177            android:authorities="com.example.spiseapp3.com.squareup.picasso"
+177-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d9391e3c73a6429a23baa72debe5b1bb\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+178            android:exported="false" />
+178-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d9391e3c73a6429a23baa72debe5b1bb\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+179
+180        <activity
+180-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+181            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+181-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+182            android:exported="false"
+182-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+183-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+184
+185        <provider
+185-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\30ccb503bcac7375af82647161206257\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+186            android:name="com.google.firebase.provider.FirebaseInitProvider"
+186-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\30ccb503bcac7375af82647161206257\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+187            android:authorities="com.example.spiseapp3.firebaseinitprovider"
+187-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\30ccb503bcac7375af82647161206257\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+188            android:exported="false"
+188-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\30ccb503bcac7375af82647161206257\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+189            android:initOrder="100" />
+189-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\30ccb503bcac7375af82647161206257\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+190        <provider
+190-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+191            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+191-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+192            android:authorities="com.example.spiseapp3.lifecycle-process"
+192-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+193            android:exported="false"
+193-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+194            android:multiprocess="true" />
+194-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+195    </application>
+196
+197</manifest>

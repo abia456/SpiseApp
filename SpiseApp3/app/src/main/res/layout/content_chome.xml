@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:paddingTop="70dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#D7BDE2 "
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:paddingTop="10dp"
+
+        android:layout_marginBottom="10dp"
+
+        >
+
+        <Spinner
+        android:id="@+id/spinner_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="5dp"
+
+
+
+
+        android:prompt="@string/select_location" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/p10"
+            app:queryHint="Search Restaurants"
+            app:iconifiedByDefault="false"
+            android:background="@color/searchbar"
+            android:id="@+id/SearchBarViewRestaurant"
+            >
+        </androidx.appcompat.widget.SearchView>
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="50dp"
+            android:src="@drawable/filtericon"
+            android:background="@color/searchbar"
+            android:id="@+id/filersearch"
+            ></ImageView>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/RecyclerViewRestaurants"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ViewRestaurantRow"
+    android:layout_margin="20dp"
+
+    android:id="@+id/restuarantRow"
+    >
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:id="@+id/ResLogo"
+        android:src="@drawable/mcdonalds"
+        android:layout_marginTop="20dp"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/DeliveryCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FREE DELIVERY"
+        android:background="@color/Purple"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/deliveryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30 MIN"
+
+        android:background="@color/Purple"
+        android:textColor="@color/white"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="20dp"
+        style="@style/TextAppearance.AppCompat.Body1"
+        >
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:id="@+id/ResDetails"
+        >
+        <TextView
+            android:id="@+id/RestaurantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="McDonald's- JoharTown"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            style="@style/TextAppearance.AppCompat.Body1"
+            >
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/RestaurantPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/averageprice"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            style="@style/TextAppearance.AppCompat.Body1"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/RestaurantCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fast Food"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            style="@style/TextAppearance.AppCompat.Body1"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/star"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            ></ImageView>
+
+        <TextView
+            android:id="@+id/RestaurantRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="6dp"
+            style="@style/TextAppearance.AppCompat.Body1"
+            ></TextView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

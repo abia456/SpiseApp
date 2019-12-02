@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    tools:context=".ui.CustomerOrders.Cordernew"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Cart"
+        android:layout_marginBottom="40dp"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Order"
+            style="@style/TextAppearance.AppCompat"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            >
+
+        </TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CorderRecycleView"
+            android:layout_marginTop="15dp"
+            ></androidx.recyclerview.widget.RecyclerView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/Cordersubtotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subtotal"
+                android:textSize="18sp"
+                android:layout_margin="4dp"
+                style="@style/TextAppearance.AppCompat"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/SubtotalCorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs 1098"
+                android:textSize="18sp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="4dp"
+                ></TextView>
+
+
+            <TextView
+                android:id="@+id/Corderdelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery fee"
+                android:textSize="18sp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="4dp"
+                style="@style/TextAppearance.AppCompat"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/DeliveryFeeCorder"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:textSize="18sp"
+                android:layout_marginTop="35dp"
+                android:text="Rs 50"
+                ></TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total (incl. GST)"
+                android:textSize="18sp"
+                style="@style/TextAppearance.AppCompat"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/total_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs 1098"
+                android:textSize="18sp"
+                android:layout_marginLeft="250dp"
+                ></TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ContactInfocart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            />
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery Details:"
+                android:layout_marginLeft="4dp"
+                android:textSize="18sp"
+                style="@style/TextAppearance.AppCompat"
+                >
+            </TextView>
+
+            <EditText
+                android:id="@+id/Corderaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="4dp"
+                android:text="Not available"
+                ></EditText>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:id="@+id/Corderstatus"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status: "
+                style="@style/TextAppearance.AppCompat"
+                android:layout_marginLeft="4dp"
+                android:textSize="18sp"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/Corderstatusvalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivered"
+                android:textSize="18sp"
+                android:layout_marginLeft="250dp"
+                ></TextView>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/CorderreorderBtn"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reorder"
+            android:background="@color/Purple"
+            android:textColor="@color/white"
+            android:layout_marginBottom="60dp"
+            ></Button>
+    </LinearLayout>
+</ScrollView>

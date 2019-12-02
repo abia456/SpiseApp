@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu"
+    android:layout_margin="10dp"
+    >
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MCDONALD'S"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_centerHorizontal="true"
+        ></TextView>
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mcdonalds"
+        ></ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food item"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="10sp"
+            android:layout_marginLeft="200dp"
+            android:textStyle="bold"
+
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/recyclerViewFoodItems"
+        android:layout_marginTop="190dp"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/menuAddtocartBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="View Cart"
+        android:background="@color/Purple"
+        android:textColor="@color/white"
+        android:layout_margin="5dp"
+        ></Button>
+</RelativeLayout>

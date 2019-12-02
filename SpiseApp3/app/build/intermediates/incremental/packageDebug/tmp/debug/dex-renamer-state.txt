@@ -1,0 +1,4 @@
+#Mon Dec 02 06:31:52 PST 2019
+base.0=D\:\\SmdLocalProjectsPhase2\\f13 abiamobile\\f13\\SpiseApp3\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
